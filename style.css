@@ -29,8 +29,9 @@ header{
 }
 .paragrafo{
     width: 100%;
-    height: 50px;
+    height: calc(60px - 15px);
     background-color: lightskyblue;
+    
 }
 .main-page{
     width: 100%;
@@ -39,22 +40,23 @@ header{
     margin: 0px 0 10px 0;
 }
 aside{
-    width: 20%;
-    height: calc(100% - 15px);
+    width: calc(20% - 15px);
     background-color: lightskyblue;
-    
+    margin-top: 15px;
+    height: calc(100% - 75px);
+        
 }
 .aside-left{
-    width: calc(20% - 15px);
     margin-right: 15px;
 }
 .aside-right{
-    width: calc(20% - 15px);
     margin-left: 15px;
 }
 article{
     width: 60%;
-    height: calc(100% - 15px);
+    background-color: lightskyblue;
+    margin-top: 15px;
+    height: calc(100% - 75px);
     background-color: lightskyblue;
     
 }
